@@ -13,6 +13,8 @@ Tested against a self-hosted `amneziawg-go` 3.x server (AmneziaVPN
 Real-world use: an ESP32-CAM Telegram bot whose entire Telegram traffic goes
 through the tunnel.
 
+> 🇷🇺 Полная инструкция на русском: [README.ru.md](README.ru.md)
+
 ---
 
 ## What it implements
@@ -177,9 +179,8 @@ Build with `-DCORE_DEBUG_LEVEL=3` to see `[WireGuard]` logs:
 - WireGuard-lwIP core: Daniel Hope (www.floorsense.nz), BSD-3-Clause.
 - ESP32 Arduino port: Kenta Ida; esp_netif/IDF5 patch: Felipe Dadison.
 - AmneziaWG obfuscation layer (`awg.c/h`, PSK/plumbing in the wrapper):
-  this project's contributors. Wire format reverse-engineered from
-  [amneziawg-go](https://github.com/amnezia-vpn/amneziawg-go) sources.
+  xISPx ([github.com/xISPx](https://github.com/xISPx)). Wire format
+  reverse-engineered from [amneziawg-go](https://github.com/amnezia-vpn/amneziawg-go)
+  sources.
 
 BSD-3-Clause — see [LICENSE](LICENSE).
-
-Полная инструкция на русском: [README.ru.md](README.ru.md).

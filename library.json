@@ -19,8 +19,9 @@
   },
   "authors": [
     {
-      "name": "AmneziaWG-ESP32 contributors",
-      "maintainer": true
+      "name": "xISPx",
+      "maintainer": true,
+      "url": "https://github.com/xISPx"
     },
     {
       "name": "Daniel Hope (wireguard-lwIP)",
