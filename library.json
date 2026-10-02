@@ -1,0 +1,43 @@
+{
+  "name": "AmneziaWG-ESP32",
+  "version": "0.1.0",
+  "description": "AmneziaWG (obfuscated WireGuard, protocol 3.x) VPN client for ESP32 on Arduino/PlatformIO. Junk packets, Sx-prefixes and ChaCha20 header protection on top of a WireGuard-lwIP core. Brings up a lwIP interface and routes all device traffic through the tunnel.",
+  "keywords": [
+    "vpn",
+    "wireguard",
+    "amneziawg",
+    "awg",
+    "esp32",
+    "tunnel",
+    "lwip",
+    "arduino"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xISPx/AmneziaWG-ESP32"
+  },
+  "authors": [
+    {
+      "name": "AmneziaWG-ESP32 contributors",
+      "maintainer": true
+    },
+    {
+      "name": "Daniel Hope (wireguard-lwIP)",
+      "email": "daniel.hope@smartalock.com"
+    },
+    {
+      "name": "Kenta Ida (ESP32 Arduino port)",
+      "email": "fuga@fugafuga.org"
+    },
+    {
+      "name": "Felipe Dadison (esp_netif / IDF5 patch)"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": [
+    "WireGuard-ESP32.h",
+    "AmneziaWG-ESP32.h"
+  ]
+}

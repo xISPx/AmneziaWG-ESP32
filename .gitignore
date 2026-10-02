@@ -1,0 +1,14 @@
+# ZCode plugin working state
+.mimosa/
+
+# Internal project management working files
+PLAN.md
+ARCHITECTURE.md
+CHECKLIST.md
+
+# Build artifacts / IDE
+.pio/
+build/
+.vscode/
+.idea/
+*.log
