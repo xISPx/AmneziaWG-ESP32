@@ -6,6 +6,10 @@ interface, switches the default route to it, and routes **all device traffic**
 (TCP/UDP/DNS — e.g. HTTPS to any API) through the tunnel, while the tunnel's own
 UDP packets keep using the WiFi interface directly.
 
+The first and currently the only open-source AmneziaWG client for ESP32-class
+microcontrollers — the official AmneziaWG ecosystem already covers desktop,
+mobile and OpenWrt routers; this library brings it down to MCU devices.
+
 Tested against a self-hosted `amneziawg-go` 3.x server (AmneziaVPN
 `amnezia-awg` containers, `protocol_version 3.1`) on an ESP32-CAM with
 `arduino-esp32` core 3.2.1 (ESP-IDF 5.4).
